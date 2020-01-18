@@ -1,6 +1,6 @@
 Name:           perl-threads-shared
 Version:        1.43
-Release:        4%{?dist}
+Release:        6%{?dist}
 Summary:        Perl extension for sharing data structures between threads
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -56,6 +56,12 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.43-6
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.43-5
+- Mass rebuild 2013-12-27
+
 * Tue Jul 02 2013 Jitka Plesnikova <jplesnik@redhat.com> - 1.43-4
 - Remove BR perl(Test)
 
